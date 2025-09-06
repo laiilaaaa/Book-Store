@@ -138,7 +138,7 @@ namespace Book_Store.Controllers
             if (book == null)
                 return NotFound();
 
-            string message = $"Order placed successfully for '{book.Title}' by {book.Author}!";
+            string message = $"˗ˏˋOrder placed successfully for '{book.Title}' by {book.Author}! ˎˊ˗";
             return RedirectToAction("Confirmation", new { message });
         }
         #endregion
