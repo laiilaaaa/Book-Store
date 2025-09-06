@@ -29,7 +29,7 @@ namespace Book_Store.Controllers
             ViewBag.Categories = books.Select(b => b.Category).Distinct().ToList();
             ViewBag.SelectedCategory = category;
 
-            // Trim and normalize search string
+           
             searchString = string.IsNullOrWhiteSpace(searchString) ? null : searchString.Trim();
             ViewBag.SearchQuery = searchString;
 

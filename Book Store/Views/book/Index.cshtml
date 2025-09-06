@@ -40,7 +40,9 @@
 
     @if (ViewBag.Message != null)
     {
-        <div class="alert alert-warning">@ViewBag.Message</div>
+        <div class="alert alert-custom text-center">
+            @ViewBag.Message
+        </div>
     }
 
     @if (TempData["OrderConfirmation"] != null)
@@ -87,7 +89,7 @@
     </div>
 </div>
 
-<!-- Move all modals OUTSIDE the container -->
+
 @foreach (var book in Model)
 {
     <div class="modal fade" id="deleteModal-@book.Id" tabindex="-1" aria-labelledby="deleteModalLabel-@book.Id" aria-hidden="true">
