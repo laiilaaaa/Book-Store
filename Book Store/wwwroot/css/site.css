@@ -82,8 +82,8 @@ body, h1, h2, h3, h4, h5, h6, p, a, label, div {
     backdrop-filter: blur(2px);  
 }
 .card-title {
-    color: #1D4D71; 
-    font-weight: 400; 
+    color: #1D4D71;
+    font-weight: 600;
 }
 
 .card-body {
