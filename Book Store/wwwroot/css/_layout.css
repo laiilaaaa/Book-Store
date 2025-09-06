@@ -1,4 +1,9 @@
-﻿a.navbar-brand {
+﻿
+
+
+/*this file called _layout.css*/
+
+a.navbar-brand {
     white-space: normal;
     text-align: center;
     word-break: break-all;

@@ -1,9 +1,26 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    //ViewData["Title"] = "Home Page";
 }
 
+<br><br><br><br>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+</head>
+
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4" style="font-family: 'Abril Fatface', cursive; font-weight: 200;"><strong>Welcome To Our Book Store!</strong></h1>
+    <h1><strong>⋅˚₊‧ ୨🕮୧ ‧₊˚ ⋅</strong></h1>
+    <br><br>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <br>
+    <div class="text-center mt-4">
+        <a class="btn btn-primary btn-lg" asp-controller="Book" asp-action="Index">
+            Go to Library
+        </a>
+    </div>
+
 </div>
 

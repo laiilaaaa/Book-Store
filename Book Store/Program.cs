@@ -15,7 +15,7 @@ namespace Book_Store
             builder.Services.AddScoped<IBookRepository, BookRepository>();
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Book Store;Trusted_Connection=True;TrustServerCertificate=True;");
+                options.UseSqlServer("Server=LAILAS\\SQLEXPRESS;Database=BookStore;Trusted_Connection=True;TrustServerCertificate=True;");
             });
 
          

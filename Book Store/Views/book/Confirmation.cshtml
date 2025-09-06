@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-custom text-center">
+        <h3>@ViewBag.ConfirmationMessage</h3>
+        <h4>You will receive a confirmation message via WhatsApp soon</h4>
+    </div>
+    <div class="text-center mt-3">
+        <a asp-action="Index" class="btn btn-primary btn-lg px-5">Back to Book List</a>
+    </div>
+</div>

@@ -1,4 +1,4 @@
-html {
+/*html {
   font-size: 14px;
 }
 
@@ -28,4 +28,99 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}*/
+
+
+
+
+
+/*this file called site.css*/
+html {
+    position: relative;
+    min-height: 100%;
 }
+
+body {
+    background-image: url("/images/Giardino French Blues Multi on White Wallpaper - Peony & Sage.jpeg");
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-color: #f8f9fa; /* fallback */
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, label, div {
+    color: #2B5B7F; 
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.0); /* keep transparent */
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.footer {
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    font-size: 0.9rem;
+    /* remove absolute positioning */
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+.alert-custom {
+    background-color: rgba(255, 255, 255, 0.7); /* white but transparent */
+    color: #2B5B7F; /* text color to match your theme */
+    border: 1px solid rgba(0,0,0,0.1);
+    border-color: #3472A3;
+}
+
+.card {
+    background-color: #EEF4FE !important;
+    background-color: rgba(238, 244, 254, 0.5) !important; /* 0.7 = 70% opaque */
+    backdrop-filter: blur(2px);  /*optional, adds a frosted glass effect */
+}
+.card-title {
+    color: #1D4D71; 
+    font-weight: 400; 
+}
+
+.card-body {
+    font-family: 'Marcellus', serif;
+    font-weight: 400; 
+}
+
+.btn-success,
+.btn-secondary,
+.btn-warning,
+.btn-info,
+.btn-primary {
+    background-color: #3472A3 !important;
+    border-color: #3472A3 !important;
+    color: #fff !important;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-success:hover,
+    .btn-secondary:hover,
+    .btn-warning:hover,
+    .btn-info:hover,
+    .btn-primary:hover {
+        background-color: #5F9AC9 !important;
+        border-color: #5F9AC9 !important;
+        color: #fff !important;
+    }
+
+/* Keep delete red */
+.btn-danger {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: #fff !important;
+}
+
+    .btn-danger:hover {
+        background-color: #e05a68 !important;
+        border-color: #e05a68 !important;
+    }
