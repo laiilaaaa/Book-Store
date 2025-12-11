@@ -1,6 +1,8 @@
-using System.Diagnostics;
 using Book_Store.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using YourApp.Models;
+// this file is called HomeController.cs
 
 namespace Book_Store.Controllers
 {
@@ -12,6 +14,12 @@ namespace Book_Store.Controllers
         {
             _logger = logger;
         }
+
+        public IActionResult LoginRegister()
+        {
+            return View();
+        }
+
 
         public IActionResult Index()
         {
@@ -28,5 +36,20 @@ namespace Book_Store.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Registration()
+        {
+            return View();
+        }
+
+        
+
     }
+
 }
